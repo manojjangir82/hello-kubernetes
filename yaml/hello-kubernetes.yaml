@@ -29,6 +29,6 @@ spec:
         image: manojjangir82/hello-kubernetes:1.5
         ports:
         - containerPort: 8080
-         env:
+        env:
         - name: MESSAGE
           value: I just deployed this on Kubernetes!  
