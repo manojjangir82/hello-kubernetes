@@ -29,3 +29,6 @@ spec:
         image: manojjangir82/hello-kubernetes:1.5
         ports:
         - containerPort: 8080
+        env:
+        - name: MESSAGE
+          value: Welcome to CICD Demo
